@@ -14,7 +14,7 @@
       "matches": [
         "*://*.realtor.com/*"
       ],
-      "js": ["contentScript.js"],
+      "js": ["utils.js", "pages/realatorPropertyDetails.js", "pages/realatorPropertyCards.js", "hud.js"],
       "css": ["styles.css"]
     }
   ]
