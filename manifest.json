@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "PODAI Offer Buttons & HUD Checker",
+  "version": "1.1",
+  "description": "Add Send/Download/PodAI buttons above 'House for sale' and Check HUD buttons for property data",
+  "permissions": ["scripting"],
+  "host_permissions": [
+    "*://*.realtor.com/*",
+    "*://*.zillow.com/*",
+    "*://*.redfin.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.realtor.com/*"
+      ],
+      "js": ["contentScript.js"],
+      "css": ["styles.css"]
+    }
+  ]
+}

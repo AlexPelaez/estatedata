@@ -1,0 +1,40 @@
+.podai-button-container {
+  display: flex;
+  gap: 6px;
+  margin-bottom: 8px;
+}
+
+.podai-btn {
+  padding: 6px 12px;
+  background-color: #2563eb;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.podai-btn:hover {
+  background-color: #1e4bb8;
+}
+
+.hud-button-container {
+  display: flex;
+  gap: 6px;
+  margin-bottom: 8px;
+}
+
+.hud-btn {
+  padding: 6px 12px;
+  background-color: #059669;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.hud-btn:hover {
+  background-color: #047857;
+}
